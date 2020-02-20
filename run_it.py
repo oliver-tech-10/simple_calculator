@@ -3,8 +3,8 @@ from multication import multiplication
 from division import division
 from subtraction import subtraction
 
-num_1 = input("Please insert your first number: ")
-num_2 = input("Please insert your second number: ")
+num_1 = int(input("Please insert your first number: "))
+num_2 = int(input("Please insert your second number: "))
 operation = input("Please insert your operation: ")
 
 if operation == "x" or operation == "X" or operation == "*":
